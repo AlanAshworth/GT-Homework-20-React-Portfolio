@@ -11,6 +11,7 @@ app.use(express.json());
 app.get("/api/config", (req, res) => {
   res.json({
     success: true,
+    currentPort: PORT,
   });
 });
 
