@@ -3,18 +3,18 @@ import React, { Fragment } from "react";
 const Portfolio = () => {
   return (
     <Fragment>
-      <div className="container">
-        <main className="row">
+      <main className="container">
+        <section className="row">
           <div className="col-md-8">
             <article className="block">
               <h1 className="block-header">Portfolio</h1>
               <hr />
               <h3 className="block-header">Assignments</h3>
-              <div className="row">
+              <section className="row">
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="Assets/Images/homework_01_code-refactor.png"
+                    src="assets/images/homework_01_code-refactor.png"
                     alt="Code Refactor"
                   />
                   <div>
@@ -41,7 +41,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="Assets/Images/homework_02_responsiveness-portfolio.png"
+                    src="assets/images/homework_02_responsiveness-portfolio.png"
                     alt="Responsiveness Portfolio"
                   />
                   <div>
@@ -65,12 +65,12 @@ const Portfolio = () => {
                     </span>
                   </div>
                 </div>
-              </div>
-              <div className="row">
+              </section>
+              <section className="row">
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="Assets/Images/homework_03_password-generator.png"
+                    src="assets/images/homework_03_password-generator.png"
                     alt="Password Generator"
                   />
                   <div>
@@ -97,7 +97,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="Assets/Images/homework_04_code-quiz.png"
+                    src="assets/images/homework_04_code-quiz.png"
                     alt="Code Quiz"
                   />
                   <div>
@@ -121,12 +121,12 @@ const Portfolio = () => {
                     </span>
                   </div>
                 </div>
-              </div>
-              <div className="row">
+              </section>
+              <section className="row">
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="Assets/Images/homework_05_day-planner.png"
+                    src="assets/images/homework_05_day-planner.png"
                     alt="Day Planner"
                   />
                   <div>
@@ -153,7 +153,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="Assets/Images/homework_06_weather-dashboard.png"
+                    src="assets/images/homework_06_weather-dashboard.png"
                     alt="Weather Dashboard"
                   />
                   <div>
@@ -177,12 +177,12 @@ const Portfolio = () => {
                     </span>
                   </div>
                 </div>
-              </div>
-              <div className="row">
+              </section>
+              <section className="row">
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="Assets/Images/homework_08_updated-portfolio-page.png"
+                    src="assets/images/homework_08_updated-portfolio-page.png"
                     alt="Updated Portfolio Page"
                   />
                   <div>
@@ -209,7 +209,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="Assets/Images/homework_09_good-readme-generator.png"
+                    src="assets/images/homework_09_good-readme-generator.png"
                     alt="Good README Generator"
                   />
                   <div>
@@ -226,12 +226,12 @@ const Portfolio = () => {
                     </span>
                   </div>
                 </div>
-              </div>
-              <div className="row">
+              </section>
+              <section className="row">
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="Assets/Images/homework_10_team-profile-generator.png"
+                    src="assets/images/homework_10_team-profile-generator.png"
                     alt="Team Profile Generator"
                   />
                   <div>
@@ -251,7 +251,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="Assets/Images/homework_11_note-taker.png"
+                    src="assets/images/homework_11_note-taker.png"
                     alt="Note Taker"
                   />
                   <div>
@@ -275,12 +275,12 @@ const Portfolio = () => {
                     </span>
                   </div>
                 </div>
-              </div>
-              <div className="row">
+              </section>
+              <section className="row">
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="Assets/Images/homework_12_employee-tracker.png"
+                    src="assets/images/homework_12_employee-tracker.png"
                     alt="Employee Tracker"
                   />
                   <div>
@@ -300,7 +300,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="Assets/Images/homework_13_node-express-handlebars.png"
+                    src="assets/images/homework_13_node-express-handlebars.png"
                     alt="Node Express Handlebars"
                   />
                   <div>
@@ -324,14 +324,14 @@ const Portfolio = () => {
                     </span>
                   </div>
                 </div>
-              </div>
+              </section>
               <hr />
               <h3 className="block-header">Projects</h3>
-              <div className="row">
+              <section className="row">
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="Assets/Images/project_01_rise-and-shine.png"
+                    src="assets/images/project_01_rise-and-shine.png"
                     alt="Rise and Shine"
                   />
                   <div>
@@ -358,7 +358,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="Assets/Images/project_02_project-2.png"
+                    src="assets/images/project_02_project-2.png"
                     alt="Project 2"
                   />
                   <div>
@@ -382,11 +382,11 @@ const Portfolio = () => {
                     </span>
                   </div>
                 </div>
-              </div>
+              </section>
             </article>
           </div>
-        </main>
-      </div>
+        </section>
+      </main>
     </Fragment>
   );
 };

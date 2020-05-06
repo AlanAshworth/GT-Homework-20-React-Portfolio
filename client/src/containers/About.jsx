@@ -9,7 +9,7 @@ const About = () => {
             <article className="block">
               <h1 className="block-header">About Me</h1>
               <hr />
-              {/* <img src="Assets/Images/avatar.jpg" alt="" id="about-image" /> */}
+              <img src="assets/images/avatar.jpg" alt="" id="about-image" />
               <p>
                 Welcome to my site! My name is Alan Ashworth. I'm Georgia
                 native, looking for oppurtunities to collaborate with others in
