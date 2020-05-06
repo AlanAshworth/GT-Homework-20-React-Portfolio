@@ -316,7 +316,112 @@ const Portfolio = () => {
                       </a>
                       <span>|</span>
                       <a
-                        href="https://github.com/AlanAshworth/GT-Homework-13-Node-Express-Handlebarsr"
+                        href="https://github.com/AlanAshworth/GT-Homework-13-Node-Express-Handlebars"
+                        target="_blank"
+                      >
+                        repo
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </section>
+              <section className="row">
+                <div className="col-sm-6 col-md-12 col-lg-6">
+                  <img
+                    className="img-fluid port-image"
+                    src="assets/images/homework_14_nosql-workout-tracker.png"
+                    alt="Fitness Tracker"
+                  />
+                  <div>
+                    <span className="float-left">
+                      <h6>13. Fitness Tracker</h6>
+                    </span>
+                    <span className="float-right">
+                      <a
+                        href="https://gentle-badlands-62416.herokuapp.com/"
+                        target="_blank"
+                      >
+                        site
+                      </a>
+                      <span>|</span>
+                      <a
+                        href="https://github.com/AlanAshworth/GT-Homework-14-NoSQL-Workout-Tracker"
+                        target="_blank"
+                      >
+                        repo
+                      </a>
+                    </span>
+                  </div>
+                </div>
+                <div className="col-sm-6 col-md-12 col-lg-6">
+                  <img
+                    className="img-fluid port-image"
+                    src="assets/images/homework_15_pwa-budget-tracker.png"
+                    alt="Budget Tracker"
+                  />
+                  <div>
+                    <span className="float-left">
+                      <h6>14. PWA Budget Tracker</h6>
+                    </span>
+                    <span className="float-right">
+                      <a
+                        href="https://stark-sea-84315.herokuapp.com/"
+                        target="_blank"
+                      >
+                        site
+                      </a>
+                      <span>|</span>
+                      <a
+                        href="https://github.com/AlanAshworth/GT-Homework-15-Online-Offline-Budget-Tracker"
+                        target="_blank"
+                      >
+                        repo
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </section>
+              <section className="row">
+                <div className="col-sm-6 col-md-12 col-lg-6">
+                  <img
+                    className="img-fluid port-image"
+                    src="assets/images/homework_19_react-employee-tracker.png"
+                    alt="React Employee Tracker"
+                  />
+                  <div>
+                    <span className="float-left">
+                      <h6>15. React Employee Tracker</h6>
+                    </span>
+                    <span className="float-right">
+                      <a
+                        href="https://github.com/AlanAshworth/gt-homework-19-employee-directory"
+                        target="_blank"
+                      >
+                        repo
+                      </a>
+                    </span>
+                  </div>
+                </div>
+                <div className="col-sm-6 col-md-12 col-lg-6">
+                  <img
+                    className="img-fluid port-image"
+                    src="assets/images/homework_20_react-portfolio.png"
+                    alt="React Portfolio"
+                  />
+                  <div>
+                    <span className="float-left">
+                      <h6>16. React Portfolio</h6>
+                    </span>
+                    <span className="float-right">
+                      <a
+                        href="https://stark-sea-84315.herokuapp.com/"
+                        target="_blank"
+                      >
+                        site
+                      </a>
+                      <span>|</span>
+                      <a
+                        href="https://github.com/AlanAshworth/GT-Homework-20-React-Portfolio"
                         target="_blank"
                       >
                         repo
