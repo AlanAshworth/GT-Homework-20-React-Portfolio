@@ -4,6 +4,7 @@ import Navbar from "./components/shared/Navbar";
 import About from "./containers/About";
 import Portfolio from "./containers/Portfolio";
 import Contact from "./containers/Contact";
+import Footer from "./components/shared/Footer";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route exact path="/about" component={About} />
       <Route exact path="/portfolio" component={Portfolio} />
       <Route path="/contact" component={Contact} />
+      <Footer />
     </Router>
   );
 }
