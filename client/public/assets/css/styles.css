@@ -1,0 +1,226 @@
+/* --- STYLES FOR ALL PAGES --- */
+body {
+  /* Typography */
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  /* Visual */
+  background-image: url("../Images/dark-teal-gradient.jpg");
+  background-size: cover;
+  color: rgb(209, 209, 209);
+}
+
+html {
+  /* Positioning */
+  position: relative;
+
+  /* Box-model */
+  min-height: 100%;
+}
+
+/* add space for fixed nav */
+main {
+  margin: 80px 0;
+}
+
+h6, p, span, hr {
+  color: rgb(209, 209, 209);
+}
+
+a {
+  color: #4aaaa5;
+}
+
+a:hover {
+  color: #3b7c79;
+}
+
+/* create styles for use for all white main boxes */
+.block {
+  background-color: #464d53;
+
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.block-header {
+  /* Typography */
+  color: #4aaaa5;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* NAV START */
+#logo {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+  /* Typography */
+  font-size: 24px;
+  font-weight: bold;
+  color: #4aaaa5;
+
+  /* Visual */
+  background: #343a40;
+}
+
+/* override bootstrap hover color and border */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #4aaaa5;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+  color: #4aaaa5;
+}
+
+.navbar {
+  background: white;
+  border: none;
+}
+
+/* media query for nav background color change */
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: #4aaaa5;
+  }
+}
+/* END NAV */
+
+
+/* CONNECT W/ ME CSS */
+.connect-header {
+  /* Typography */
+  font-size: 25px;
+}
+
+.connect-photo {
+  /* Box-model */
+  width: 55px;
+  height: 55px;
+}
+
+#images {
+  /* Box-model */
+  padding-top: 15px;
+
+  /* Typography */
+  text-align: center;
+}
+/* END CONNECT W/ ME */
+
+
+/* BEGIN FOOTER */
+.footer {
+  /* Positioning */
+  position: absolute;
+  bottom: 0;
+
+  /* Box-model */
+  width: 100%;
+
+  /* Visual */
+  background-color: #343a40;
+}
+
+.text-muted-footer {
+  /* Box-model */
+  margin-top: 15px;
+
+  /* Typography */
+  color: #fff;
+}
+
+.two-toned-footer-color {
+  /* Box-model */
+  height: 6px;
+  padding-top: 3px;
+
+  /* Visual */
+  background-color: #4aaaa5;
+}
+
+.footer-icons {
+text-align: center;
+}
+
+#img-linkedin {
+  max-width: 30px;
+  max-height: 30px;
+  margin: auto;
+}
+
+#img-github {
+  max-width: 30px;
+  max-height: 30px;
+  margin: auto;
+}
+
+#img-stackoverflow {
+  max-width: 28px;
+  max-height: 27px;
+  margin: auto;
+}
+/* END FOOTER */
+/* --- END STYLES FOR ALL PAGES --- */
+
+/* --- PAGE-SPECIFIC STYLES --- */
+/* ABOUT-ME PAGE */
+.about-me-header {
+  /* Positioning */
+  margin-bottom: 33px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+  /* Typography */
+  font-size: 32px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+#about-image {
+  /* Positioning */
+  float: left;
+
+  /* Box-model */
+  width: 200px;
+  margin: 0 20px 10px 0;
+}
+/* END ABOUT-ME PAGE */
+
+
+/* PORTFOLIO PAGE */
+.port-image {
+  margin: 20px auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #666;
+}
+/* END PORTFOLIO PAGE */
+
+
+/* CONTACT FORM PAGE  */
+.form-control {
+  /* give input boxes right angles */
+  border-radius: 0;
+
+  /* keep from horizontally resizing text area */
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.submit-btn {
+  /* Box-model */
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: lighter;
+
+  /* Typography */
+  color: #343a40;
+
+  /* Visual */
+  background-color: #4aaaa5;
+  border: 0;
+}
+
+.submit-btn:hover {
+  opacity: .7;
+}
+
+/* END CONTACT FORM PAGE */
