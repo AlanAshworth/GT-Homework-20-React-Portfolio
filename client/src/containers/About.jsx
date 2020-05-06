@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 const About = () => {
   return (
-    <div>
+    <Fragment>
       <main className="container">
         <section className="row">
           <div className="col-md-8">
@@ -57,7 +57,7 @@ const About = () => {
           </div>
         </section>
       </main>
-    </div>
+    </Fragment>
   );
 };
 
