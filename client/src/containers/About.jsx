@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from "react";
 import Header from "../components/shared/Header";
+import Avatar from "../../public/assets/images/avatar.jpg";
 
 const About = () => {
   const [title, setTitle] = useState("About Me");
@@ -14,7 +15,7 @@ const About = () => {
             <article className="block">
               <h3 className="block-header">Alan Ashworth</h3>
               <hr />
-              <img src="./assets/images/avatar.jpg" alt="" id="about-image" />
+              <img src={Avatar} alt="" id="about-image" />
               <p>
                 Welcome to my site! I'm a Georgia native, looking for
                 oppurtunities to collaborate with others in the greater Atlanta
