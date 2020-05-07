@@ -2,8 +2,8 @@ import React, { Fragment, useState } from "react";
 import Header from "../components/shared/Header";
 
 const Contact = () => {
-  const [title, setTitle] = useState("Contact Me");
-  const [subtitle, setSubtitle] = useState("Currently Accepting Work");
+  const [title] = useState("Contact Me");
+  const [subtitle] = useState("Currently Accepting Work");
 
   return (
     <Fragment>

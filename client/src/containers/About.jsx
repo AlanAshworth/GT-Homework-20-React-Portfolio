@@ -2,8 +2,8 @@ import React, { Fragment, useState } from "react";
 import Header from "../components/shared/Header";
 
 const About = () => {
-  const [title, setTitle] = useState("About Me");
-  const [subtitle, setSubtitle] = useState("Full Stack Web Developer");
+  const [title] = useState("About Me");
+  const [subtitle] = useState("Full Stack Web Developer");
 
   return (
     <Fragment>

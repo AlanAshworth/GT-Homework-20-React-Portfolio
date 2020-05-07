@@ -2,8 +2,8 @@ import React, { Fragment, useState } from "react";
 import Header from "../components/shared/Header";
 
 const Portfolio = () => {
-  const [title, setTitle] = useState("My Portfolio");
-  const [subtitle, setSubtitle] = useState("Individual & Group Projects");
+  const [title] = useState("My Portfolio");
+  const [subtitle] = useState("Individual & Group Projects");
 
   return (
     <Fragment>
@@ -419,7 +419,7 @@ const Portfolio = () => {
                     </span>
                     <span className="float-right">
                       <a
-                        href="https://stark-sea-84315.herokuapp.com/"
+                        href="https://dry-beach-35920.herokuapp.com/"
                         target="_blank"
                       >
                         site
