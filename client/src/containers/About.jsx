@@ -14,7 +14,7 @@ const About = () => {
             <article className="block">
               <h3 className="block-header">Alan Ashworth</h3>
               <hr />
-              <img src="assets/images/avatar.jpg" alt="" id="about-image" />
+              <img src="./assets/images/avatar.jpg" alt="" id="about-image" />
               <p>
                 Welcome to my site! I'm a Georgia native, looking for
                 oppurtunities to collaborate with others in the greater Atlanta
