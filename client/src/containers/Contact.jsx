@@ -1,13 +1,18 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
+import Header from "../components/shared/Header";
 
 const Contact = () => {
+  const [title, setTitle] = useState("Contact Me");
+  const [subtitle, setSubtitle] = useState("Currently Accepting Work");
+
   return (
     <Fragment>
+      <Header title={title} subtitle={subtitle} />
       <main className="container">
         <section className="row">
           <div className="col-md-8">
             <form className="block form-horizontal">
-              <h1 className="block-header">Contact</h1>
+              <h3 className="block-header">Please Fill Completely</h3>
               <hr />
               <div className="form-group">
                 <label htmlFor="name" className="col-sm-2 control-label">

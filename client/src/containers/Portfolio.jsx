@@ -1,15 +1,20 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
+import Header from "../components/shared/Header";
 
 const Portfolio = () => {
+  const [title, setTitle] = useState("My Portfolio");
+  const [subtitle, setSubtitle] = useState("Individual & Group Projects");
+
   return (
     <Fragment>
+      <Header title={title} subtitle={subtitle} />
       <main className="container">
         <section className="row">
           <div className="col-md-8">
             <article className="block">
-              <h1 className="block-header">Portfolio</h1>
+              <h3 className="block-header">Individual Projects</h3>
               <hr />
-              <h3 className="block-header">Assignments</h3>
+              
               <section className="row">
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
@@ -430,8 +435,9 @@ const Portfolio = () => {
                   </div>
                 </div>
               </section>
+              <br />
+              <h3 className="block-header">Group Projects</h3>
               <hr />
-              <h3 className="block-header">Projects</h3>
               <section className="row">
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
