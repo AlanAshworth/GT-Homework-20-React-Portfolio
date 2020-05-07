@@ -1,13 +1,13 @@
-import React, { Fragment } from "react";
-// import Header from "../components/shared/Header";
+import React, { Fragment, useState } from "react";
+import Header from "../components/shared/Header";
 
 const Portfolio = () => {
-  // const [title, setTitle] = useState("My Portfolio");
-  // const [subtitle, setSubtitle] = useState("Individual & Group Projects");
+  const [title, setTitle] = useState("My Portfolio");
+  const [subtitle, setSubtitle] = useState("Individual & Group Projects");
 
   return (
     <Fragment>
-      {/* <Header title={title} subtitle={subtitle} /> */}
+      <Header title={title} subtitle={subtitle} />
       <main className="container">
         <section className="row">
           <div className="col-md-8">
