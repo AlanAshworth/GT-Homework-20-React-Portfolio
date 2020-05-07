@@ -1,13 +1,13 @@
-import React, { Fragment, useState } from "react";
-import Header from "../components/shared/Header";
+import React, { Fragment } from "react";
+// import Header from "../components/shared/Header";
 
 const Contact = () => {
-  const [title] = useState("Contact Me");
-  const [subtitle] = useState("Currently Accepting Work");
+  // const [title, setTitle] = useState("Contact Me");
+  // const [subtitle, setSubtitle] = useState("Currently Accepting Work");
 
   return (
     <Fragment>
-      <Header title={title} subtitle={subtitle} />
+      {/* <Header title={title} subtitle={subtitle} /> */}
       <main className="container">
         <section className="row">
           <div className="col-md-8">
