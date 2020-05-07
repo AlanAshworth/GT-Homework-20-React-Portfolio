@@ -2,7 +2,7 @@
 
 A professional portfolio website showcasing my latest projects.
 
-![screenshot](./client/public/assets/images/screenshot_index.png)
+![screenshot](./client/public/assets/Images/screenshot_index.png)
 
 ## Description
 
