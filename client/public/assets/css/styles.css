@@ -4,7 +4,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background-image: url("../images/dark-teal-gradient.jpg");
+  background-image: url("./assets/images/dark-teal-gradient.jpg");
   background-size: cover;
   color: rgb(209, 209, 209);
 }
