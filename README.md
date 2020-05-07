@@ -17,7 +17,7 @@ My portfolio initially built with pure HMTL/CSS, now updated to component-based 
 
 ## Website
 
-<!-- [Deployed Application](https://immense-peak-43329.herokuapp.com/) -->
+[Deployed Application](https://dry-beach-35920.herokuapp.com/)
 
 ## Repository
 
