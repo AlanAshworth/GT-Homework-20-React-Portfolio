@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 import Header from "../components/shared/Header";
-import Avatar from "../../public/assets/images/avatar.jpg";
+import Avatar from "./assets/images/avatar.jpg";
 
 const About = () => {
   const [title, setTitle] = useState("About Me");
