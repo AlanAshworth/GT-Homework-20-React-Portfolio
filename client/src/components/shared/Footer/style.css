@@ -1,0 +1,46 @@
+/* BEGIN FOOTER */
+.footer {
+  /* Positioning */
+  position: absolute;
+  bottom: 0;
+
+  /* Box-model */
+  width: 100%;
+
+  /* Visual */
+  background-color: #343a40;
+}
+.footer-icons {
+  text-align: center;
+}
+#img-linkedin {
+  max-width: 30px;
+  max-height: 30px;
+  margin: auto;
+}
+#img-github {
+  max-width: 30px;
+  max-height: 30px;
+  margin: auto;
+}
+#img-stackoverflow {
+  max-width: 28px;
+  max-height: 27px;
+  margin: auto;
+}
+.text-muted-footer {
+  /* Box-model */
+  margin-top: 15px;
+
+  /* Typography */
+  color: #fff;
+}
+.two-toned-footer-color {
+  /* Box-model */
+  height: 6px;
+  padding-top: 3px;
+
+  /* Visual */
+  background-color: #4aaaa5;
+}
+/* END FOOTER */

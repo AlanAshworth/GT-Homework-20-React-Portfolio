@@ -1,4 +1,9 @@
 import React, { Fragment } from "react";
+import linkedin from "../../../assets/images/linkedin.png";
+import github from "../../../assets/images/github.png";
+import stackover2 from "../../../assets/images/stackover2.png";
+import MyResume from "../../../assets/resources/MyResume.pdf";
+import "./style.css";
 
 const Footer = () => {
   return (
@@ -17,7 +22,7 @@ const Footer = () => {
           </span>
           <span>
             My Resume:{" "}
-            <a href="Assets/resources/MyResume.pdf" target="_blank">
+            <a href={MyResume} target="_blank">
               Link
             </a>
           </span>
@@ -27,24 +32,16 @@ const Footer = () => {
             href="https://www.linkedin.com/in/alan-ashworth-4019b519a/"
             target="_blank"
           >
-            <img
-              id="img-linkedin"
-              src="Assets/Images/linkedin.png"
-              alt="Linkedin"
-            />
+            <img id="img-linkedin" src={linkedin} alt="Linkedin" />
           </a>
           <a href="https://github.com/AlanAshworth" target="_blank">
-            <img id="img-github" src="Assets/Images/github.png" alt="Github" />
+            <img id="img-github" src={github} alt="Github" />
           </a>
           <a
             href="https://stackoverflow.com/users/12620631/alan-ashworth"
             target="_blank"
           >
-            <img
-              id="img-stackoverflow"
-              src="Assets/Images/stackover2.png"
-              alt="stack overflow"
-            />
+            <img id="img-stackoverflow" src={stackover2} alt="stack overflow" />
           </a>
         </div>
       </footer>

@@ -1,13 +1,30 @@
 import React, { Fragment, useState } from "react";
-import Header from "../components/shared/Header";
+// import Header from "../components/shared/Header";
+import hw01 from "../assets/images/homework_01_code-refactor.png";
+import hw02 from "../assets/images/homework_02_responsiveness-portfolio.png";
+import hw03 from "../assets/images/homework_03_password-generator.png";
+import hw04 from "../assets/images/homework_04_code-quiz.png";
+import hw05 from "../assets/images/homework_05_day-planner.png";
+import hw06 from "../assets/images/homework_06_weather-dashboard.png";
+import hw07 from "../assets/images/project_02_project-2.png";
+import hw08 from "../assets/images/homework_08_updated-portfolio-page.png";
+import hw09 from "../assets/images/homework_09_good-readme-generator.png";
+import hw10 from "../assets/images/homework_10_team-profile-generator.png";
+import hw11 from "../assets/images/homework_11_note-taker.png";
+import hw12 from "../assets/images/homework_12_employee-tracker.png";
+import hw13 from "../assets/images/homework_13_node-express-handlebars.png";
+import hw14 from "../assets/images/homework_14_nosql-workout-tracker.png";
+import hw15 from "../assets/images/homework_15_pwa-budget-tracker.png";
+import hw19 from "../assets/images/homework_19_react-employee-tracker.png";
+import hw20 from "../assets/images/homework_20_react-portfolio.png";
 
 const Portfolio = () => {
-  const [title, setTitle] = useState("My Portfolio");
-  const [subtitle, setSubtitle] = useState("Individual & Group Projects");
+  // const [title, setTitle] = useState("My Portfolio");
+  // const [subtitle, setSubtitle] = useState("Individual & Group Projects");
 
   return (
     <Fragment>
-      <Header title={title} subtitle={subtitle} />
+      {/* <Header title={title} subtitle={subtitle} /> */}
       <main className="container">
         <section className="row">
           <div className="col-md-8">
@@ -19,7 +36,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_01_code-refactor.png"
+                    src={hw01}
                     alt="Code Refactor"
                   />
                   <div>
@@ -46,7 +63,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_02_responsiveness-portfolio.png"
+                    src={hw02}
                     alt="Responsiveness Portfolio"
                   />
                   <div>
@@ -75,7 +92,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_03_password-generator.png"
+                    src={hw03}
                     alt="Password Generator"
                   />
                   <div>
@@ -102,7 +119,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_04_code-quiz.png"
+                    src={hw04}
                     alt="Code Quiz"
                   />
                   <div>
@@ -131,7 +148,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_05_day-planner.png"
+                    src={hw05}
                     alt="Day Planner"
                   />
                   <div>
@@ -158,7 +175,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_06_weather-dashboard.png"
+                    src={hw06}
                     alt="Weather Dashboard"
                   />
                   <div>
@@ -187,7 +204,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_08_updated-portfolio-page.png"
+                    src={hw08}
                     alt="Updated Portfolio Page"
                   />
                   <div>
@@ -214,7 +231,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_09_good-readme-generator.png"
+                    src={hw09}
                     alt="Good README Generator"
                   />
                   <div>
@@ -236,7 +253,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_10_team-profile-generator.png"
+                    src={hw10}
                     alt="Team Profile Generator"
                   />
                   <div>
@@ -256,7 +273,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_11_note-taker.png"
+                    src={hw11}
                     alt="Note Taker"
                   />
                   <div>
@@ -285,7 +302,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_12_employee-tracker.png"
+                    src={hw12}
                     alt="Employee Tracker"
                   />
                   <div>
@@ -305,7 +322,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_13_node-express-handlebars.png"
+                    src={hw13}
                     alt="Node Express Handlebars"
                   />
                   <div>
@@ -334,7 +351,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_14_nosql-workout-tracker.png"
+                    src={hw14}
                     alt="Fitness Tracker"
                   />
                   <div>
@@ -361,7 +378,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_15_pwa-budget-tracker.png"
+                    src={hw15}
                     alt="Budget Tracker"
                   />
                   <div>
@@ -390,7 +407,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_19_react-employee-tracker.png"
+                    src={hw19}
                     alt="React Employee Tracker"
                   />
                   <div>
@@ -410,7 +427,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/homework_20_react-portfolio.png"
+                    src={hw20}
                     alt="React Portfolio"
                   />
                   <div>
@@ -469,7 +486,7 @@ const Portfolio = () => {
                 <div className="col-sm-6 col-md-12 col-lg-6">
                   <img
                     className="img-fluid port-image"
-                    src="assets/images/project_02_project-2.png"
+                    src={hw07}
                     alt="Project 2"
                   />
                   <div>

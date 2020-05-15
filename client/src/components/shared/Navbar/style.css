@@ -1,0 +1,30 @@
+/* NAV START */
+#logo {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+
+  /* Typography */
+  font-size: 24px;
+  font-weight: bold;
+  color: #4aaaa5;
+
+  /* Visual */
+  background: #343a40;
+}
+/* override bootstrap hover color and border */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #4aaaa5;
+}
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: #4aaaa5;
+}
+.navbar {
+  background: white;
+  border: none;
+}
+/* media query for nav background color change */
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: #4aaaa5;
+  }
+}
+/* END NAV */
