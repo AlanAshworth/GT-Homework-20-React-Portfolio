@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 // import Header from "../components/shared/Header";
 import Avatar from "../assets/images/avatar.jpg";
 
@@ -7,7 +7,7 @@ const About = () => {
   // const [subtitle, setSubTitle] = useState("Full Stack Web Developer");
 
   return (
-    <Fragment>
+    <>
       {/* <Header title={title} subtitle={subtitle} /> */}
       <main className="container">
         <section className="row">
@@ -33,7 +33,7 @@ const About = () => {
           </div>
         </section>
       </main>
-    </Fragment>
+    </>
   );
 };
 

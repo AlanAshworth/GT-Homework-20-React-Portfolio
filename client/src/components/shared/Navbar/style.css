@@ -1,4 +1,3 @@
-/* NAV START */
 #logo {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 
@@ -10,16 +9,20 @@
   /* Visual */
   background: #343a40;
 }
-/* override bootstrap hover color and border */
-.navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
-}
-.navbar-dark .navbar-nav .active > .nav-link {
-  color: #4aaaa5;
-}
 .navbar {
   background: white;
   border: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* override bootstrap color and border */
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: #4aaaa5;
+}
+/* override bootstrap hover color and border */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #4aaaa5;
 }
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
@@ -27,4 +30,3 @@
     background-color: #4aaaa5;
   }
 }
-/* END NAV */

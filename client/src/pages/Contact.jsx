@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 // import Header from "../components/shared/Header";
 
 const Contact = () => {
@@ -6,7 +6,7 @@ const Contact = () => {
   // const [subtitle, setSubtitle] = useState("Currently Accepting Work");
 
   return (
-    <Fragment>
+    <>
       {/* <Header title={title} subtitle={subtitle} /> */}
       <main className="container">
         <section className="row">
@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
         </section>
       </main>
-    </Fragment>
+    </>
   );
 };
 

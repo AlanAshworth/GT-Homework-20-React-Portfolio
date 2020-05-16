@@ -3,7 +3,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background: url(./background.jpg) no-repeat center center fixed;
+  background-image: linear-gradient(to bottom right, #011111, #0d564f);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

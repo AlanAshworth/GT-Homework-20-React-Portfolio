@@ -20,14 +20,15 @@ const Portfolio = () => {
       .catch((err) => console.log(err));
   };
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col"></div>
-        {assignments.length ? (
-          <Grid>
-            {assignments.map((assignment) => (
-              <GridItem key={assignment._id}>
-                {/* <Link to={"/assignments/" + assignment._id}>
+    <>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-sm"></div>
+          {assignments.length ? (
+            <Grid>
+              {assignments.map((assignment) => (
+                <GridItem key={assignment._id}>
+                  {/* <Link to={"/assignments/" + assignment._id}>
                 <Card
                     title={assignment.title}
                     image={assignment.image}
@@ -36,21 +37,22 @@ const Portfolio = () => {
                     key={assignment._id}
                   />
                 </Link> */}
-                <Card
+                  <Card
                     title={assignment.title}
                     image={assignment.image}
                     site={assignment.site}
                     repo={assignment.repo}
                     key={assignment._id}
                   />
-              </GridItem>
-            ))}
-          </Grid>
-        ) : (
-          <h3>No Results to Display</h3>
-        )}
+                </GridItem>
+              ))}
+            </Grid>
+          ) : (
+            <h3>No Results to Display</h3>
+          )}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

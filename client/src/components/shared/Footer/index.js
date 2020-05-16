@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import linkedin from "../../../assets/images/linkedin.png";
 import github from "../../../assets/images/github.png";
 import stackover2 from "../../../assets/images/stackover2.png";
@@ -7,7 +7,7 @@ import "./style.css";
 
 const Footer = () => {
   return (
-    <Fragment>
+    <>
       <footer className="footer">
         <div className="two-toned-footer-color"></div>
         <p className="text-muted text-muted-footer text-center">
@@ -45,7 +45,7 @@ const Footer = () => {
           </a>
         </div>
       </footer>
-    </Fragment>
+    </>
   );
 };
 
