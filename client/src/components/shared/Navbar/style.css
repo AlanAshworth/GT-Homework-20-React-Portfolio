@@ -1,13 +1,5 @@
-#logo {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-
-  /* Typography */
-  font-size: 24px;
-  font-weight: bold;
-  color: #4aaaa5;
-
-  /* Visual */
-  background: #343a40;
+nav {
+  z-index: 9999;
 }
 .navbar {
   background: white;
@@ -23,6 +15,17 @@
 /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a:hover {
   color: #4aaaa5;
+}
+#logo {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+
+  /* Typography */
+  font-size: 24px;
+  font-weight: bold;
+  color: #4aaaa5;
+
+  /* Visual */
+  background: #343a40;
 }
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {

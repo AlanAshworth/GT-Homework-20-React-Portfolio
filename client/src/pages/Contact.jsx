@@ -8,8 +8,8 @@ const Contact = () => {
   return (
     <>
       {/* <Header title={title} subtitle={subtitle} /> */}
-      <main className="container">
-        <section className="row">
+      <div className="container">
+        <div className="row">
           <div className="col-md-8">
             <form className="block form-horizontal">
               <h3 className="block-header">Please Fill Completely</h3>
@@ -56,8 +56,8 @@ const Contact = () => {
               <button className="submit-btn">Submit</button>
             </form>
           </div>
-        </section>
-      </main>
+        </div>
+      </div>
     </>
   );
 };

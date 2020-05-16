@@ -9,8 +9,8 @@ const About = () => {
   return (
     <>
       {/* <Header title={title} subtitle={subtitle} /> */}
-      <main className="container">
-        <section className="row">
+      <div className="container">
+        <div className="row">
           <div className="col-md-8">
             <article className="block">
               <h3 className="block-header">Alan Ashworth</h3>
@@ -31,8 +31,8 @@ const About = () => {
               </p>
             </article>
           </div>
-        </section>
-      </main>
+        </div>
+      </div>
     </>
   );
 };

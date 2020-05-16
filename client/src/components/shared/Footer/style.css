@@ -1,9 +1,10 @@
 /* BEGIN FOOTER */
 .footer {
   /* Positioning */
-  position: absolute;
+  
+  position: fixed;
   bottom: 0;
-
+  /* height: 60vh; */
   /* Box-model */
   width: 100%;
 
