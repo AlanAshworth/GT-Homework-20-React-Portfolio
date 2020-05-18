@@ -1,13 +1,22 @@
-import React, { useState } from "react";
-// import Header from "../components/shared/Header";
+import React, { useState, useEffect } from "react";
+import Header from "../components/shared/Header";
 
 const Contact = () => {
-  // const [title, setTitle] = useState("Contact Me");
-  // const [subtitle, setSubtitle] = useState("Currently Accepting Work");
+  const [title, setTitle] = useState("Contact Me");
+  const [subtitle, setSubtitle] = useState("Currently Accepting Work");
+
+  useEffect(() => {
+    loadHeader();
+  }, []);
+
+  const loadHeader = () => {
+    setTitle(title);
+    setSubtitle(subtitle);
+  };
 
   return (
     <>
-      {/* <Header title={title} subtitle={subtitle} /> */}
+      <Header title={title} subtitle={subtitle} />
       <div className="container">
         <div className="row">
           <div className="col-md-8">

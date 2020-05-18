@@ -13,7 +13,7 @@ export function Grid({ children }) {
 
 export function GridItem({ children }) {
   return (
-    <div className="col-md-4">
+    <div className="col-sm-4">
       <li className="list-group-item">{children}</li>
     </div>
   );

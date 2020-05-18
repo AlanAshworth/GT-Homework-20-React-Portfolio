@@ -1,14 +1,23 @@
-import React, { useState } from "react";
-// import Header from "../components/shared/Header";
+import React, { useState, useEffect } from "react";
+import Header from "../components/shared/Header";
 import Avatar from "../assets/images/avatar.jpg";
 
 const About = () => {
-  // const [title, setTitle] = useState("About Me");
-  // const [subtitle, setSubTitle] = useState("Full Stack Web Developer");
+  const [title, setTitle] = useState("About Me");
+  const [subtitle, setSubtitle] = useState("Full Stack Web Developer");
+
+  useEffect(() => {
+    loadHeader();
+  }, []);
+
+  const loadHeader = () => {
+    setTitle(title);
+    setSubtitle(subtitle);
+  };
 
   return (
     <>
-      {/* <Header title={title} subtitle={subtitle} /> */}
+      <Header title={title} subtitle={subtitle} />
       <div className="container">
         <div className="row">
           <div className="col-md-8">

@@ -5,7 +5,7 @@ import "./style.css";
 const Navbar = () => {
 
   const activeStyle = {
-    color: "teal"
+    color: "rgba(74,170,165,1)"
   };
 
   return (

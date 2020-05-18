@@ -22,7 +22,7 @@ const Footer = () => {
           </span>
           <span>
             My Resume:{" "}
-            <a href={MyResume} target="_blank">
+            <a href={MyResume} target="_blank" rel="noopener noreferrer">
               Link
             </a>
           </span>
@@ -31,15 +31,21 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/alan-ashworth-4019b519a/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img id="img-linkedin" src={linkedin} alt="Linkedin" />
           </a>
-          <a href="https://github.com/AlanAshworth" target="_blank">
+          <a
+            href="https://github.com/AlanAshworth"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img id="img-github" src={github} alt="Github" />
           </a>
           <a
             href="https://stackoverflow.com/users/12620631/alan-ashworth"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img id="img-stackoverflow" src={stackover2} alt="stack overflow" />
           </a>

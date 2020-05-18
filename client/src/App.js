@@ -7,13 +7,14 @@ import Navbar from "./components/shared/Navbar";
 import Footer from "./components/shared/Footer";
 import "./App.css";
 
-function App() {
+const App = () => {
+
   return (
     <Router>
       <Navbar />
       <main>
         <Switch>
-          <Route exact path="/" component={About} />
+          <Route path="/" exact component={About} />
           <Route path="/about" component={About} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/contact" component={Contact} />
@@ -22,6 +23,6 @@ function App() {
       <Footer />
     </Router>
   );
-}
+};
 
 export default App;

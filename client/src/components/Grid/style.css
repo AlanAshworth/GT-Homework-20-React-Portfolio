@@ -1,3 +1,6 @@
+ul {
+  padding-inline-end: 40px;
+}
 .list-group-item {
   background-color: transparent;
   border: transparent;
