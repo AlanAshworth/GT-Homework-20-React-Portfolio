@@ -47,16 +47,16 @@ let portfolioSeeds = [
     repo: "https://github.com/AlanAshworth/GT-Homework-06",
   },
   {
-    title: "Project 2",
-    image: "project_02_project-2.png",
-    site: "https://steam-comparison.herokuapp.com/",
-    repo: "https://github.com/SamSherrill/project-2",
-  },
-  {
     title: "Updated Portfolio Page",
     image: "homework_08_updated-portfolio-page.png",
     site: "https://alanashworth.github.io/GT-Homework-08-Updated-Portfolio-Page/",
     repo: "https://github.com/AlanAshworth/GT-Homework-08-Updated-Portfolio-Page",
+  },
+  {
+    title: "Rain or Shine",
+    image: "project_01_rise-and-shine.png",
+    site: "https://alanashworth.github.io/Rain-or-Shine/",
+    repo: "https://github.com/AlanAshworth/Rain-or-Shine",
   },
   {
     title: "Good README Generator",
@@ -77,7 +77,7 @@ let portfolioSeeds = [
     repo: "https://github.com/AlanAshworth/GT-Homework-11-Note-Taker",
   },
   {
-    title: "Employee Tracker",
+    title: "Employee Management System",
     image: "homework_12_employee-tracker.png",
     site: "",
     repo: "https://github.com/AlanAshworth/GT-Homework-12-Employee-Tracker",
@@ -89,19 +89,31 @@ let portfolioSeeds = [
     repo: "https://github.com/AlanAshworth/GT-Homework-13-Node-Express-Handlebars",
   },
   {
+    title: "Reverse Engineering Authentication",
+    image: "",
+    site: "https://docs.google.com/document/d/1nUnWs91MJAy8O7qYUgd3oG9Z_Nn_JUu3OuDnWORVXhI/edit?usp=sharing",
+    repo: "",
+  },
+  {
+    title: "Steam Comparison",
+    image: "project_02_project-2.png",
+    site: "https://steam-comparison.herokuapp.com/",
+    repo: "https://github.com/AlanAshworth/project-2",
+  },
+  {
     title: "Fitness Tracker",
     image: "homework_14_nosql-workout-tracker.png",
     site: "https://gentle-badlands-62416.herokuapp.com/",
     repo: "https://github.com/AlanAshworth/GT-Homework-14-NoSQL-Workout-Tracker",
   },
   {
-    title: "Budget Tracker",
+    title: "Progressive Budget",
     image: "homework_15_pwa-budget-tracker.png",
     site: "https://stark-sea-84315.herokuapp.com/",
     repo: "https://github.com/AlanAshworth/GT-Homework-15-Online-Offline-Budget-Tracker",
   },
   {
-    title: "React Employee Tracker",
+    title: "User Directory",
     image: "homework_19_react-employee-tracker.png",
     site: "",
     repo: "https://github.com/AlanAshworth/gt-homework-19-employee-directory",
@@ -111,6 +123,18 @@ let portfolioSeeds = [
     image: "homework_20_react-portfolio.png",
     site: "https://dry-beach-35920.herokuapp.com/",
     repo: "https://github.com/AlanAshworth/GT-Homework-20-React-Portfolio",
+  },
+  {
+    title: "Google Books React Search",
+    image: "homework_21_google-books-search.png",
+    site: "https://stark-forest-37093.herokuapp.com/",
+    repo: "https://github.com/AlanAshworth/GT-Homework-21-Google-Books-Search",
+  },
+  {
+    title: "Playlist of Legends",
+    image: "project_03_playlist-of-legends.png",
+    site: "https://still-citadel-22646.herokuapp.com/",
+    repo: "https://github.com/AlanAshworth/Project3-Playlists-of-Legends",
   },
 ];
 
