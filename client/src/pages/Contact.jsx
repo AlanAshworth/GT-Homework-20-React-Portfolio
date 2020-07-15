@@ -7,7 +7,7 @@ const Contact = () => {
 
   useEffect(() => {
     loadHeader();
-  }, []);
+  });
 
   const loadHeader = () => {
     setTitle(title);

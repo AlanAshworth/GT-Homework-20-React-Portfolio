@@ -8,7 +8,7 @@ const About = () => {
 
   useEffect(() => {
     loadHeader();
-  }, []);
+  });
 
   const loadHeader = () => {
     setTitle(title);

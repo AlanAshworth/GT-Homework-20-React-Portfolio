@@ -14,7 +14,7 @@ const Portfolio = () => {
   useEffect(() => {
     loadHeader();
     loadAssignments();
-  }, []);
+  });
 
   const loadHeader = () => {
     setTitle(title);
