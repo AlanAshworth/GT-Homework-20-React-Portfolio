@@ -1,6 +1,6 @@
 const db = require("../models");
 
-// Defining methods for the championsController
+// Defining methods for the assignmentsController
 module.exports = {
   findAll: function(req, res) {
     db.Portfolio
